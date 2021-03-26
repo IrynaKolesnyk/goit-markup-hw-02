@@ -78,7 +78,8 @@ ul {
 .contacts-header .link:focus {
   color: var(--accent-color);
 }
-/* page studio */
+
+/* STODIO */
 
 /* heading */
 
@@ -167,6 +168,41 @@ ul {
   letter-spacing: 0.03em;
 }
 
+/* PORTFOLIO */
+
+/* filter */
+.filter-list {
+  display: flex;
+}
+
+.filter-button {
+  background-color: var(--grey-bg-color);
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/* work-examples */
+.work-examples-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.work-examples-subtitle {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
 /* footer */
 .site-footer {
   background-color: var(--dark-bg-color);
