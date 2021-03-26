@@ -86,10 +86,13 @@ ul {
 .heading {
   background-color: var(--dark-bg-color);
   color: var(--primary-bg-color);
+  text-align: center;
+}
+
+.heading-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -99,10 +102,10 @@ ul {
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
-  cursor: pointer;
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .button-primary:hover,
@@ -218,7 +221,7 @@ ul {
 }
 
 .contacts-footer .link {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
