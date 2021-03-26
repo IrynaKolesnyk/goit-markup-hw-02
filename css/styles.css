@@ -64,6 +64,9 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* contacts */
 .contacts-header .link {
   color: var(--primary-text-color);
